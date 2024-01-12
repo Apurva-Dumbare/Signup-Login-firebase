@@ -1,0 +1,100 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282626;
+  color: #fff;
+}
+
+.main_container_signup {
+  background: #282626;
+  padding: 20px 30px;
+  margin: 0px auto;
+  width: 400px;
+  margin-top: 100px;
+  border-top: 5px solid #1b1b19;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Add a hover effect */
+.main_container_signup:hover {
+  background: #1a1a1a;
+  transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  background-color: #393939;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.3s ease; /* Add a transition for a smooth effect */
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgb(0, 149, 255); /* Adjust the color and size as needed */
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #30d8f5; /* Aqua background */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(48, 216, 245, 0.3);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #3498db; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+button svg {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #bbb;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
